@@ -1,6 +1,10 @@
 # Turborepo starter
 
-This is an official starter Turborepo.
+This is an official starter Turborepo. with [Lit](https://lit.dev/) UI added as a package
+
+## Description
+
+This repo is demenstrating the use of web compoment using Lit in a monorepo
 
 ## Using this example
 
@@ -18,6 +22,8 @@ This Turborepo includes the following packages/apps:
 
 - `docs`: a [Next.js](https://nextjs.org/) app
 - `web`: another [Next.js](https://nextjs.org/) app
+- `portal`: A vue app
+- `@repo/lit-ui`: a stub lit component library shared by both `web` and `portal` applications
 - `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
