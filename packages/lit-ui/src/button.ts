@@ -1,9 +1,15 @@
-import { LitElement, html } from "lit";
+import { LitElement, css, html } from "lit";
 import { customElement, property } from "lit/decorators.js";
+
 @customElement("lit-button")
 export class LitButton extends LitElement {
   @property({ type: String })
   appName = "Lit";
+  static override styles = css`
+    button {
+      background-color: blue;
+    }
+  `;
 
   override render() {
     return html`

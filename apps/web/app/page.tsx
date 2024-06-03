@@ -3,7 +3,7 @@ import { Card } from "@repo/ui/card";
 import { Code } from "@repo/ui/code";
 import styles from "./page.module.css";
 import { Button } from "@repo/ui/button";
-import { ReactButton } from "@repo/lit-ui/reacButton";
+import { ReactButton } from "@repo/lit-ui/reactButton";
 
 function Gradient({
   conic,

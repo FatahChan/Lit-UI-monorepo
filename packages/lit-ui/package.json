@@ -6,7 +6,7 @@
     "./button": "./src/button.ts",
     "./card": "./src/card.ts",
     "./code": "./src/code.ts",
-    "./reacButton": "./src/reactButton.ts"
+    "./reactButton": "./src/reactButton.ts"
   },
   "type": "module",
   "scripts": {
