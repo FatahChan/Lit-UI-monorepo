@@ -1,4 +1,4 @@
-# Turborepo starter
+# Turborepo starter with Lit UI
 
 This is an official starter Turborepo. with [Lit](https://lit.dev/) UI added as a package
 
