@@ -22,7 +22,7 @@ This Turborepo includes the following packages/apps:
 
 - `docs`: a [Next.js](https://nextjs.org/) app
 - `web`: another [Next.js](https://nextjs.org/) app
-- `portal`: A vue app
+- `portal`: A [Vue](https://vuejs.org/) app
 - `@repo/lit-ui`: a stub lit component library shared by both `web` and `portal` applications
 - `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
